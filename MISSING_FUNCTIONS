@@ -1,3 +1,5 @@
+#This line of code should be added to pipeline_5.ipynb file. It labels boxes. I delete it by mistake
+from scipy.ndimage.measurements import label
 
 #These functions create an heat map to identify false positive and detect high confidence measurements
 
