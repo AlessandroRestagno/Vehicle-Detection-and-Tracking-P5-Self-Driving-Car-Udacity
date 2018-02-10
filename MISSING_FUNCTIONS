@@ -1,4 +1,6 @@
 
+#These functions create an heat map to identify false positive and detect high confidence measurements
+
 def add_heat(heatmap, bbox_list):
     # Iterate through list of bboxes
     for box in bbox_list:
